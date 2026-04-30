@@ -1,0 +1,4 @@
+#!/bin/bash
+DIR=$(cd "$(dirname "$0")"; pwd)
+JAR_PATH="$DIR/../Resources/F1SectorTimeCalculator.jar"
+java -jar "$JAR_PATH"

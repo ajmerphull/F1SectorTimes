@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>JavaAppLauncher</string>
+    <key>CFBundleIconFile</key>
+    <string>racing-car.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourcompany.F1SectorTimeCalculator</string>
+    <key>CFBundleName</key>
+    <string>F1 Sector Time Calculator</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>  <!-- CRITICAL: Must be APPL for applications -->
+    <key>CFBundleSignature</key>
+    <string>F1ST</string>  <!-- 4-character unique code -->
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSUIElement</key>
+    <false/>  <!-- CRITICAL: Must be false to appear in dock/app switcher -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>Java</key>
+    <dict>
+        <key>MainClass</key>
+        <string>f1sectortimecalculator.F1SectorTimeCalculator</string>
+        <key>ClassPath</key>
+        <string>$JAVAROOT/F1SectorTimeCalculator.jar</string>
+        <key>Properties</key>
+        <dict>
+            <key>apple.laf.useScreenMenuBar</key>
+            <true/>
+        </dict>
+    </dict>
+</dict>
+</plist>
