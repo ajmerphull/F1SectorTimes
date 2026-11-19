@@ -1,5 +1,3 @@
-# `README.md`
-
 ```markdown
 # F1 Sector Time Calculator
 
