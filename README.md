@@ -82,10 +82,11 @@ open "F1 Sector Time Calculator.app"
 
 | You type | Interpreted as |
 |----------|----------------|
-| `123456` | `1:23.456` (M:SS.mmm) |
-| `23456`  | `23.456` (SS.mmm) |
-| `456`    | `0.456` (mmm) |
-| `1:23.456` | `1:23.456` |
+| `23456` | `23.456` (M:SS.mmm) |
+| `45678`  | `45.678` (SS.mmm) |
+| `34567`    | `34.567` (mmm) |
+|----------|----------------|
+| `1:43.701` | `1:43.701` |
 
 When you leave a field containing exactly 6 digits, it is auto-formatted to `M:SS.mmm` for readability. Shorter entries are left as-is but still parsed correctly.
 
